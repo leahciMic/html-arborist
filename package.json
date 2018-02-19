@@ -1,0 +1,31 @@
+{
+  "name": "html-arborist",
+  "version": "1.0.0",
+  "description": "Clean and sanitise html snippets",
+  "main": "./lib/htmlArborist.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "npx eslint ./"
+  },
+  "keywords": [
+    "html",
+    "sanitise",
+    "clean",
+    "transform"
+  ],
+  "repository": {
+    "url": "https://github.com/leahciMic/html-arborist",
+    "type": "git"
+  },
+  "author": "Michael Leaney <leahcimic@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "entities": "^1.1.1",
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "htmlparser2": "^3.9.2",
+    "jest": "^22.2.2",
+    "lodash": "^4.17.5"
+  }
+}
