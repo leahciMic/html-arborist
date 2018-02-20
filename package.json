@@ -18,7 +18,7 @@
     "type": "git"
   },
   "author": "Michael Leaney <leahcimic@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "entities": "^1.1.1",
     "eslint": "^4.17.0",
