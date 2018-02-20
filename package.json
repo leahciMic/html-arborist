@@ -4,7 +4,7 @@
   "description": "Clean and sanitise html snippets",
   "main": "./lib/htmlArborist.js",
   "scripts": {
-    "test": "jest",
+    "test": "npm run lint && npx jest",
     "lint": "npx eslint ./"
   },
   "keywords": [
