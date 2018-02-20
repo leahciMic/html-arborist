@@ -24,7 +24,7 @@ things will change over time. This is the start.
 ```javascript
 const htmlArborist = require('html-arborist');
 
-htmlArborist('<html><body><h1 onclick="alert(\'hello\')">Hello</h1></body></html>); // <h2>Hello</h2>
+htmlArborist('<html><body><h1 onclick="alert(\'hello\')">Hello</h1></body></html>'); // <h2>Hello</h2>
 ```
 
 ## API
