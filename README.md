@@ -1,6 +1,6 @@
 # HTML Arborist
 
-![![Build Status](https://travis-ci.org/leahciMic/html-arborist.svg?branch=master)](https://travis-ci.org/leahciMic/html-arborist)
+[![Build Status](https://travis-ci.org/leahciMic/html-arborist.svg?branch=master)](https://travis-ci.org/leahciMic/html-arborist)
 
 > Parse HTML into a object model, and perform tree surgery.
 
