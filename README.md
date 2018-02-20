@@ -13,7 +13,6 @@ things will change over time. This is the start.
 
 ## Table of Contents
 
-- [Background](#background)
 - [Usage](#usage)
 - [API](#api)
 - [Contribute](#contribute)
