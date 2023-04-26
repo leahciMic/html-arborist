@@ -1,7 +1,7 @@
-const HNodeRoot = require('./HNodeRoot');
-const HElementNode = require('./HElementNode');
-const HTextNode = require('./HTextNode');
-const { Parser } = require('htmlparser2');
+const HNodeRoot = require("./HNodeRoot");
+const HElementNode = require("./HElementNode");
+const HTextNode = require("./HTextNode");
+const { Parser } = require("htmlparser2");
 
 module.exports = function HOMBuilder(html) {
   let currentNode = new HNodeRoot();
@@ -12,7 +12,11 @@ module.exports = function HOMBuilder(html) {
 
   const handler = {
     onopentag(tagName, attributes) {
-      const node = new HElementNode({ tagName, attributes, parent: currentNode });
+      const node = new HElementNode({
+        tagName,
+        attributes,
+        parent: currentNode,
+      });
       currentNode.appendChild(node);
       currentNode = node;
     },
@@ -24,8 +28,7 @@ module.exports = function HOMBuilder(html) {
       node.textContent = text;
       currentNode.appendChild(node);
     },
-    onend() {
-    },
+    onend() {},
     onerror(err) {
       console.error(err);
     },
